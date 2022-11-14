@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>TestNG:  RegressionTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RegressionTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Nov 11 11:25:18 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>291 seconds (291364 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='crmtest.LoginPageTest.validUrlTest()'><b>validUrlTest</b><br>Test class: crmtest.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>crmtest.LoginPageTest@2b71e916</td></tr>
+<tr>
+<td title='crmtest.HomePageTest.validNewDealRedirection()'><b>validNewDealRedirection</b><br>Test class: crmtest.HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>crmtest.HomePageTest@28701274</td></tr>
+<tr>
+<td title='crmtest.DealPageTest.createCompanyTest()'><b>createCompanyTest</b><br>Test class: crmtest.DealPageTest</td>
+<td></td>
+<td>0</td>
+<td>crmtest.DealPageTest@13c9d689</td></tr>
+<tr>
+<td title='crmtest.LoginPageTest.validLoginTest()'><b>validLoginTest</b><br>Test class: crmtest.LoginPageTest</td>
+<td></td>
+<td>5</td>
+<td>crmtest.LoginPageTest@2b71e916</td></tr>
+<tr>
+<td title='crmtest.ContactPageTest.validateCreateContactTest()'><b>validateCreateContactTest</b><br>Test class: crmtest.ContactPageTest<br>Parameters: Sir, Allu, Kumar, Arjun, 5.867778458E9, aka@hoi.in, Tamilnadu</td>
+<td></td>
+<td>3</td>
+<td>crmtest.ContactPageTest@2a65fe7c</td></tr>
+<tr>
+<td title='crmtest.LoginPageTest.validLogoTest()'><b>validLogoTest</b><br>Test class: crmtest.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>crmtest.LoginPageTest@2b71e916</td></tr>
+<tr>
+<td title='crmtest.ContactPageTest.validateCreateContactTest()'><b>validateCreateContactTest</b><br>Test class: crmtest.ContactPageTest<br>Parameters: Prof., Stuart, Little, More, 8.520123674E9, slm@skim.in, Salora</td>
+<td></td>
+<td>6</td>
+<td>crmtest.ContactPageTest@2a65fe7c</td></tr>
+<tr>
+<td title='crmtest.LoginPageTest.validTitleTest()'><b>validTitleTest</b><br>Test class: crmtest.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>crmtest.LoginPageTest@2b71e916</td></tr>
+<tr>
+<td title='crmtest.HomePageTest.validUserTxt()'><b>validUserTxt</b><br>Test class: crmtest.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>crmtest.HomePageTest@28701274</td></tr>
+<tr>
+<td title='crmtest.ContactPageTest.validateCreateContactTest()'><b>validateCreateContactTest</b><br>Test class: crmtest.ContactPageTest<br>Parameters: Mr., The, Rock, Johnson, 7.89456321E9, rock@hai.in, America</td>
+<td></td>
+<td>3</td>
+<td>crmtest.ContactPageTest@2a65fe7c</td></tr>
+<tr>
+<td title='crmtest.ContactPageTest.validateCreateContactTest()'><b>validateCreateContactTest</b><br>Test class: crmtest.ContactPageTest<br>Parameters: Mr., Vijay, Surecsh, Shrama, 7.410852963E9, vss@gmail.com, USA</td>
+<td></td>
+<td>3</td>
+<td>crmtest.ContactPageTest@2a65fe7c</td></tr>
+<tr>
+<td title='crmtest.ContactPageTest.validateCreateContactTest()'><b>validateCreateContactTest</b><br>Test class: crmtest.ContactPageTest<br>Parameters: Dr., Pankaj, Raju, Tripathi, 7.530123896E9, pkt@yahoo.in, Pune</td>
+<td></td>
+<td>7</td>
+<td>crmtest.ContactPageTest@2a65fe7c</td></tr>
+<tr>
+<td title='crmtest.CompanyPageTest.createCompanyTest()'><b>createCompanyTest</b><br>Test class: crmtest.CompanyPageTest</td>
+<td></td>
+<td>6</td>
+<td>crmtest.CompanyPageTest@36fc695d</td></tr>
+<tr>
+<td title='crmtest.HomePageTest.validNewCompanyRedirection()'><b>validNewCompanyRedirection</b><br>Test class: crmtest.HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>crmtest.HomePageTest@28701274</td></tr>
+<tr>
+<td title='crmtest.HomePageTest.validNewContactRedirection()'><b>validNewContactRedirection</b><br>Test class: crmtest.HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>crmtest.HomePageTest@28701274</td></tr>
+</table><p>
+</body>
+</html>
